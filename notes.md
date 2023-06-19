@@ -1,7 +1,9 @@
 # App.js
 
-## Inception
-- 0.1 Inception
+## 1. Inception
+
+- 1.0 Inception
+
 ```
     <script>
         const heading = document.createElement("h1")
@@ -11,7 +13,8 @@
     </script>
 ```
 
-- 0.2 Inception
+- 1.1 Inception
+
 ```
 const heading = React.createElement(
   "h1",
@@ -44,4 +47,24 @@ const parent = React.createElement(
   ])
 );
 root.render(parent);
+```
+
+### 2. Ignite App
+
+- 2.0 Ignite
+
+```
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// React Element
+const heading = React.createElement(
+  "h1",
+  { style: { color: "skyblue" }, id: "heading" },
+  "ignite app"
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading);
 ```
