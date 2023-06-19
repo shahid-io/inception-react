@@ -2,7 +2,6 @@
   "name": "inception",
   "version": "1.0.0",
   "description": "inception react, igniting the react app",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
@@ -12,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^2.0.22",
     "parcel": "^2.9.2",
     "process": "^0.11.10"
   },

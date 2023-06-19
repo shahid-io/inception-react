@@ -1,0 +1,56 @@
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.navItems {
+    margin-left: auto;
+}
+
+.navItems ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItems li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navItems li:last-child {
+    margin-right: 0;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.resCards {
+    width: 200px;
+    height: 350px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+.resCards>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.resCards>.resDesc {
+    width: 100%;
+    object-fit: cover;
+    font-size: smaller;
+    font-weight: 300;
+}
