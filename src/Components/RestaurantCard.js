@@ -7,7 +7,7 @@ const styleCards = {
 
 //RestaurantCard Component
 const RestaurantCard = (props) => {
-  const { resData } = props;
+  const { resList } = props;
   const {
     name,
     avgRating,
@@ -16,7 +16,7 @@ const RestaurantCard = (props) => {
     deliveryTime,
     cloudinaryImageId,
     address,
-  } = resData;
+  } = resList;
   return (
     <div className="resCards" style={styleCards}>
       <img alt="resLogo" src={CARDS_IMG_URL + cloudinaryImageId}></img>

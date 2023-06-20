@@ -220,3 +220,49 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<AppLayout />);
 ```
+### Body Code
+```
+import RestaurantCard from "./RestaurantCard";
+import Data from "../../src/utils/data/swiggy.json";
+import { useState } from "react";
+let resList = Data.data.cards;
+
+//Body Component
+const Body = () => {
+  //Hooks
+  const [restaurantList, setRestaurantList] = useState(resList);
+
+  return (
+    <div className="body">
+      <div className="search">
+        <input type="text" placeholder="search" className="searchInput" />
+        <button name="submit" className="searchButton">
+          search
+        </button>
+        <div className="filter">
+          <button
+            type="submit"
+            className="filterButton"
+            onClick={() => {
+              let filteredList = restaurantList.filter(
+                (item) => item.data.avgRating > 4
+              );
+              console.log(filteredList);
+              setRestaurantList(filteredList);
+            }}
+          >
+            Top Restaurants
+          </button>
+        </div>
+      </div>
+      <div className="res-container">
+        {restaurantList.map((item) => (
+          <RestaurantCard key={item.data.id} resList={item.data} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Body;
+```

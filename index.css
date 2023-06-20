@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin-top: 10px;
+}
+
 .logo img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: contain;
+    margin-left: 15px;
 }
 
 .header {
@@ -92,6 +101,29 @@
 }
 
 .searchButton:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* filter button */
+.search .filter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search .filter .filterButton {
+    background-color: #cbcfd3;
+    color: #555;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-left: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search .filterButton:hover {
     background-color: #0056b3;
     color: #fff;
 }
