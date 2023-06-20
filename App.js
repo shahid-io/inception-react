@@ -70,7 +70,7 @@ const Body = () => {
   return (
     <div className="body">
       <div className="search">
-        <input type="text" className="searchInput" />
+        <input type="text" placeholder="search" className="searchInput" />
         <button name="submit" className="searchButton">
           search
         </button>
