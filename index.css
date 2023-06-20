@@ -27,21 +27,23 @@
 }
 
 
-.res-container{
+.res-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .resCards {
-    width: 200px;
-    height: 350px;
+    width: 210px;
     margin-top: 10px;
-    padding: 5px;
-    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px solid grey; */
 }
 
 .resCards>img {
     width: 100%;
+    border-radius: 3px;
     object-fit: cover;
 }
 
@@ -50,4 +52,45 @@
     object-fit: cover;
     font-size: smaller;
     font-weight: 300;
+}
+
+.cardText {
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 2px 0 rgba(245, 240, 240, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+.resName {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cardText h3 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.cardText h4 {
+    font-size: 16px;
+    color: #999;
+    margin: 5px 0;
+}
+
+.cardText h5 {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.cardText .resAddress {
+    color: #555;
+    word-wrap: break-word;
+    font-size: 12px;
 }

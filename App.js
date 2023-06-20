@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 
 import Data from "./swiggy.json";
 
-console.log(Data.data.cards[0].data.name);
 //Header Component
 const Header = () => {
   return (
@@ -34,46 +33,38 @@ const styleCards = {
 //RestaurantCard Component
 const RestaurantCard = (props) => {
   const { resData } = props;
+  const {
+    name,
+    avgRating,
+    cuisines,
+    costForTwo,
+    deliveryTime,
+    cloudinaryImageId,
+    address,
+  } = resData;
   return (
     <div className="resCards" style={styleCards}>
       <img
         alt="resLogo"
         src={
           "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
-          resData.data.cards[0].data.cloudinaryImageId
+          cloudinaryImageId
         }
       ></img>
-      <h3 className="resName">{resData.data.cards[0].data.name}</h3>
-      <h3>{resData.data.cards[0].data.avgRating} stars</h3>
-      <h4>{resData.data.cards[0].data.cuisines.join(", ")}</h4>
-      <h4>{resData.data.cards[0].data.costForTwo / 100}</h4>
-      <h5>{resData.data.cards[0].data.deliveryTime} Min</h5>
-      <p className="resDesc"></p>
+      <div className="cardText">
+        <h3 className="resName">{name}</h3>
+        <h3>{avgRating} stars</h3>
+        <h4>{cuisines.join(", ")}</h4>
+        <h4>₹{costForTwo / 100} For Two</h4>
+        <h5>Deliver in {deliveryTime} Min</h5>
+        <p className="resAddress">Address - {address}</p>
+      </div>
     </div>
   );
 };
 
-//RestaurantCard Component
-const RestaurantCards = (props) => {
-  const { resData } = props;
-  return (
-    <div className="resCards">
-      <img
-        alt="resLogo"
-        src={
-          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
-          resData.data.cards[0].data.cloudinaryImageId
-        }
-      ></img>
-      <h3 className="resName">{resData.data.cards[0].data.name}</h3>
-      <h3>{resData.data.cards[0].data.avgRating} stars</h3>
-      <h4>{resData.data.cards[0].data.cuisines.join(", ")}</h4>
-      <h4>{resData.data.cards[0].data.costForTwo / 100}</h4>
-      <h5>{resData.data.cards[0].data.deliveryTime} Min</h5>
-      <p className="resDesc"></p>
-    </div>
-  );
-};
+const resList = Data.data.cards;
+
 //Body Component
 const Body = () => {
   return (
@@ -85,7 +76,9 @@ const Body = () => {
         </button>
       </div>
       <div className="res-container">
-        <RestaurantCard resData={Data} />
+        {resList.map((item) => (
+          <RestaurantCard resData={item.data} />
+        ))}
       </div>
     </div>
   );
