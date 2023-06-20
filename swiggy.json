@@ -1,0 +1,1667 @@
+{
+  "data": {
+    "cards": [
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "60008",
+          "name": "Alakapuri",
+          "uuid": "c6d3096e-497a-4fce-96a7-da9e925af2c4",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "10000+ ratings",
+          "cloudinaryImageId": "k2why61tsxk9sh0sl68d",
+          "cuisines": ["South Indian", "Kerala", "North Indian"],
+          "tags": [],
+          "costForTwo": 30000,
+          "costForTwoString": "₹300 FOR TWO",
+          "deliveryTime": 27,
+          "minDeliveryTime": 27,
+          "maxDeliveryTime": 27,
+          "slaString": "27 MINS",
+          "lastMileTravel": 5,
+          "slugs": {
+            "restaurant": "alakapuri-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Near Civil Station Road, Kakkanad, Kochi",
+          "locality": "Civil Station Road",
+          "parentId": 20242,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 4400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 4400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "4400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=7157557~p=1~eid=00000188-d719-9296-01a5-69530010017e~srvts=1687235957398",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "5 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "60008",
+            "deliveryTime": 27,
+            "minDeliveryTime": 27,
+            "maxDeliveryTime": 27,
+            "lastMileTravel": 5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.4",
+          "totalRatings": 10000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "553867",
+          "name": "Harsh Dhaba",
+          "uuid": "c28a6e45-10dc-462c-bf8e-2c9a0443c808",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "1000+ ratings",
+          "cloudinaryImageId": "qzh1wruc0ifwvy9jbi07",
+          "cuisines": ["North Indian", "South Indian"],
+          "tags": [],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 29,
+          "minDeliveryTime": 29,
+          "maxDeliveryTime": 29,
+          "slaString": "29 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "harsh-dhaba-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "8/965 B THENGODE P O,EDACHIRA,KAKKAAD,THRIKKAKARA CIRCLE,ERNAKULAM KERALA-682030",
+          "locality": "Thrikkakara",
+          "parentId": 333110,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "10% OFF",
+            "subHeader": "ABOVE ₹800",
+            "discountTag": "FLAT DEAL",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "553867",
+            "deliveryTime": 29,
+            "minDeliveryTime": 29,
+            "maxDeliveryTime": 29,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.3",
+          "totalRatings": 1000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "282413",
+          "name": "Veetile Oonu",
+          "uuid": "454c3590-ebbb-4167-a8e6-b700f6902597",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "5000+ ratings",
+          "cloudinaryImageId": "dj7vtgexkqn75gmlvjev",
+          "cuisines": ["South Indian"],
+          "tags": [],
+          "costForTwo": 25000,
+          "costForTwoString": "₹250 FOR TWO",
+          "deliveryTime": 21,
+          "minDeliveryTime": 21,
+          "maxDeliveryTime": 21,
+          "slaString": "21 MINS",
+          "lastMileTravel": 4,
+          "slugs": {
+            "restaurant": "veetile-oonu-kakkanad-kakkanad-2",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "IX / 817, Chakkalakkal Moolayil, Rajagiri valley kakkanad , Ernakulam, KOCHI CIRCLE, Kochi - 682001",
+          "locality": "Chakkalakkal Moolayil",
+          "parentId": 222003,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3900,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3900,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3900",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "4 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "282413",
+            "deliveryTime": 21,
+            "minDeliveryTime": 21,
+            "maxDeliveryTime": 21,
+            "lastMileTravel": 4,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "3.9",
+          "totalRatings": 5000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "101001",
+          "name": "Aswin Restaurant",
+          "uuid": "93f09ef7-b812-412b-a93e-bf11f3c63bbd",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "10000+ ratings",
+          "cloudinaryImageId": "ajwbqnjqv1iicaxaibss",
+          "cuisines": ["Chinese", "South Indian", "North Indian"],
+          "tags": [],
+          "costForTwo": 25000,
+          "costForTwoString": "₹250 FOR TWO",
+          "deliveryTime": 28,
+          "minDeliveryTime": 28,
+          "maxDeliveryTime": 28,
+          "slaString": "28 MINS",
+          "lastMileTravel": 4.400000095367432,
+          "slugs": {
+            "restaurant": "aswin-restaurant-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Infopark Expressway, Rajagiri Valley, Kakkanad, Kochi",
+          "locality": "Rajagiri Valley",
+          "parentId": 20652,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3900,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3900,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3900",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=7157609~p=4~eid=00000188-d719-9296-01a5-695400100452~srvts=1687235957398",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "4.4 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "101001",
+            "deliveryTime": 28,
+            "minDeliveryTime": 28,
+            "maxDeliveryTime": 28,
+            "lastMileTravel": 4.400000095367432,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "3.9",
+          "totalRatings": 10000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "55641",
+          "name": "Sandwich Walas",
+          "uuid": "ba2e3f77-9c49-4839-97a9-0aa1dab44fc3",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "5000+ ratings",
+          "cloudinaryImageId": "a1zwjsdczhjhtybtep6p",
+          "cuisines": ["Continental", "Italian", "Desserts", "Beverages"],
+          "tags": [],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 22,
+          "minDeliveryTime": 22,
+          "maxDeliveryTime": 22,
+          "slaString": "22 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "sandwichwallas-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Carnival Infopark - Phase 3, Ground Floor",
+          "locality": "3rd Phase",
+          "parentId": 20900,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "55641",
+            "deliveryTime": 22,
+            "minDeliveryTime": 22,
+            "maxDeliveryTime": 22,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.0",
+          "totalRatings": 5000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "53380",
+          "name": "The Ice Cream Factory",
+          "uuid": "2ab80db0-7f5b-4bb6-870c-f891798f9330",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "5000+ ratings",
+          "cloudinaryImageId": "k9drb9ymyxttftkv9u4g",
+          "cuisines": ["Ice Cream", "Beverages"],
+          "tags": [],
+          "costForTwo": 30000,
+          "costForTwoString": "₹300 FOR TWO",
+          "deliveryTime": 26,
+          "minDeliveryTime": 26,
+          "maxDeliveryTime": 26,
+          "slaString": "26 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "the-icecream-factory-and-sandiwchwalas-infopark-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Carnival Infopark - Phase 3, Ground Floor",
+          "locality": "3rd Phase",
+          "parentId": 209959,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "53380",
+            "deliveryTime": 26,
+            "minDeliveryTime": 26,
+            "maxDeliveryTime": 26,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.0",
+          "totalRatings": 5000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "52083",
+          "name": "Palaaram",
+          "uuid": "f59dc53f-d3b7-4d7e-9154-8920c3f3bdbb",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "10000+ ratings",
+          "cloudinaryImageId": "zchpuqit7k4pdndgse4t",
+          "cuisines": [
+            "Kerala",
+            "Biryani",
+            "North Indian",
+            "Arabian",
+            "Chinese"
+          ],
+          "tags": [],
+          "costForTwo": 40000,
+          "costForTwoString": "₹400 FOR TWO",
+          "deliveryTime": 31,
+          "minDeliveryTime": 31,
+          "maxDeliveryTime": 31,
+          "slaString": "31 MINS",
+          "lastMileTravel": 7.699999809265137,
+          "slugs": {
+            "restaurant": "palaaram-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Vallathol Junction, Thrikkakara, Kakkanad, Kochi",
+          "locality": "Thrikkakara",
+          "parentId": 18945,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 5400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 5400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "5400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=7157568~p=7~eid=00000188-d719-9296-01a5-695500100740~srvts=1687235957398",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "7.6 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "52083",
+            "deliveryTime": 31,
+            "minDeliveryTime": 31,
+            "maxDeliveryTime": 31,
+            "lastMileTravel": 7.699999809265137,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.1",
+          "totalRatings": 10000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "332686",
+          "name": "Cake Hut",
+          "uuid": "2fb48fc5-0ea8-41f6-beca-1a1d6418df0d",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "yyh1kcfnhsptmyjsap2d",
+          "cuisines": ["Bakery"],
+          "tags": [],
+          "costForTwo": 30000,
+          "costForTwoString": "₹300 FOR TWO",
+          "deliveryTime": 18,
+          "minDeliveryTime": 18,
+          "maxDeliveryTime": 18,
+          "slaString": "18 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "cake-hut-kakkanad-kakkanad-2",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "9/704 (9/417-I A) HEERA CYBER VIEWS INFOPARK ROAD KAKKANAD EDACHIRA KOCHI, District - Ernakulam, STATE - Kerala",
+          "locality": "Edachira",
+          "parentId": 4752,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹50",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "332686",
+            "deliveryTime": 18,
+            "minDeliveryTime": 18,
+            "maxDeliveryTime": 18,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.5",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "51485",
+          "name": "Blooms Berry",
+          "uuid": "2f5a59f7-7742-495c-b71e-58fc8a88bd45",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "1000+ ratings",
+          "cloudinaryImageId": "eo2wjhpdomzt75thdmg5",
+          "cuisines": ["South Indian", "North Indian", "Chinese"],
+          "tags": [],
+          "costForTwo": 50000,
+          "costForTwoString": "₹500 FOR TWO",
+          "deliveryTime": 27,
+          "minDeliveryTime": 27,
+          "maxDeliveryTime": 27,
+          "slaString": "27 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "blooms-berry-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Infopark Road, Kusumagiri, Kakkanad, Kochi",
+          "locality": "kusumagiri",
+          "parentId": 47930,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "51485",
+            "deliveryTime": 27,
+            "minDeliveryTime": 27,
+            "maxDeliveryTime": 27,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "3.4",
+          "totalRatings": 1000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "480622",
+          "name": "Paradise Hotel - Kakkanad",
+          "uuid": "7fe754c3-ff53-4d66-9490-26208e63b9b5",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "10000+ ratings",
+          "cloudinaryImageId": "rkqv12lccau98khsp2t7",
+          "cuisines": ["Biryani", "Kerala"],
+          "tags": [],
+          "costForTwo": 25000,
+          "costForTwoString": "₹250 FOR TWO",
+          "deliveryTime": 28,
+          "minDeliveryTime": 28,
+          "maxDeliveryTime": 28,
+          "slaString": "28 MINS",
+          "lastMileTravel": 5,
+          "slugs": {
+            "restaurant": "hotel-paradise-bakers-and-food-court-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Ground floor,16/693,AYODYA BUILDING,NEAR CIVIL STATION,KAKKANAD,ERNAKULAM,682030",
+          "locality": "Civil Station",
+          "parentId": 20246,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 4400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 4400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "4400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=7157552~p=10~eid=00000188-d719-9296-01a5-695600100a0a~srvts=1687235957398",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "5 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹120",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "480622",
+            "deliveryTime": 28,
+            "minDeliveryTime": 28,
+            "maxDeliveryTime": 28,
+            "lastMileTravel": 5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "3.8",
+          "totalRatings": 10000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "377310",
+          "name": "The Belgian Waffle Co.",
+          "uuid": "6c07dcf0-c38c-4592-938a-93a1d818b56b",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "1000+ ratings",
+          "cloudinaryImageId": "vnakusb7yq6kaxkxf6cj",
+          "cuisines": ["Waffle", "Desserts", "Ice Cream", "Beverages"],
+          "tags": [],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 48,
+          "minDeliveryTime": 48,
+          "maxDeliveryTime": 48,
+          "slaString": "48 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "the-belgian-waffle-co-edachira-infopark-road-kakkanad-2",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Ground Floor, Heera Cyberviews, Edachira Infopark Road,Kakkanad, Kochi -682030",
+          "locality": "Edachira Infopark Road",
+          "parentId": 2233,
+          "unserviceable": false,
+          "veg": true,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "377310",
+            "deliveryTime": 48,
+            "minDeliveryTime": 48,
+            "maxDeliveryTime": 48,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.2",
+          "totalRatings": 1000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "52179",
+          "name": "Expresso",
+          "uuid": "5ebbdb36-41d0-4668-a312-b27cd1cc7e8c",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "1000+ ratings",
+          "cloudinaryImageId": "vmksaa43vbtrc4ahwkgk",
+          "cuisines": ["Continental", "Beverages", "Desserts", "Snacks"],
+          "tags": [],
+          "costForTwo": 15000,
+          "costForTwoString": "₹150 FOR TWO",
+          "deliveryTime": 25,
+          "minDeliveryTime": 25,
+          "maxDeliveryTime": 25,
+          "slaString": "25 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "expresso-infopark-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Carnival Infopark - Phase 4, Ground Floor, Kakkanad",
+          "locality": "Sector 4",
+          "parentId": 20921,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "52179",
+            "deliveryTime": 25,
+            "minDeliveryTime": 25,
+            "maxDeliveryTime": 25,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "3.8",
+          "totalRatings": 1000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "52591",
+          "name": "Nandanam Pure Vegetarian Restaurant",
+          "uuid": "d0269fff-0872-408f-9c5e-23af71f54728",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "10000+ ratings",
+          "cloudinaryImageId": "822e3749e265421ce201f270515ce578",
+          "cuisines": ["South Indian", "North Indian", "Chinese"],
+          "tags": [],
+          "costForTwo": 35000,
+          "costForTwoString": "₹350 FOR TWO",
+          "deliveryTime": 32,
+          "minDeliveryTime": 32,
+          "maxDeliveryTime": 32,
+          "slaString": "32 MINS",
+          "lastMileTravel": 7,
+          "slugs": {
+            "restaurant": "nandanam-pure-vegetarian-restaurant-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "Door 2, Near Reliance Market, Kakkanad, Kochi",
+          "locality": "Vazhakkala",
+          "parentId": 6417,
+          "unserviceable": false,
+          "veg": true,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 5400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 5400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "5400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=7157606~p=13~eid=00000188-d719-9296-01a5-695700100d5a~srvts=1687235957398",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "7 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "52591",
+            "deliveryTime": 32,
+            "minDeliveryTime": 32,
+            "maxDeliveryTime": 32,
+            "lastMileTravel": 7,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "3.9",
+          "totalRatings": 10000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "332127",
+          "name": "Homely Sandwich",
+          "uuid": "f64c49c8-fe4a-4236-bafa-8e4d73b85295",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "500+ ratings",
+          "cloudinaryImageId": "qwdedc9wxxywcqdcql9t",
+          "cuisines": ["Snacks"],
+          "tags": [],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 32,
+          "minDeliveryTime": 32,
+          "maxDeliveryTime": 32,
+          "slaString": "32 MINS",
+          "lastMileTravel": 3.5,
+          "slugs": {
+            "restaurant": "homely-sandwich-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "ILLIKKAPARAMBIL HOUSE THENGODE P O KAKKANAD, THRIKKAKARA CIRCLE,ERNAKULAM",
+          "locality": "Thengode",
+          "parentId": 96692,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3400,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3400,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3400",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3.5 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "₹75 OFF",
+            "subHeader": "ABOVE ₹299",
+            "discountTag": "FLAT DEAL",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "332127",
+            "deliveryTime": 32,
+            "minDeliveryTime": 32,
+            "maxDeliveryTime": 32,
+            "lastMileTravel": 3.5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.5",
+          "totalRatings": 500,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "394960",
+          "name": "Healthy Diet",
+          "uuid": "449fff92-34e5-47dd-ba4d-b501c1fd8e8f",
+          "city": "13",
+          "area": "Kakkanad",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "keuoioxzcvhd7m6v25gq",
+          "cuisines": ["Indian"],
+          "tags": [],
+          "costForTwo": 39000,
+          "costForTwoString": "₹390 FOR TWO",
+          "deliveryTime": 31,
+          "minDeliveryTime": 31,
+          "maxDeliveryTime": 31,
+          "slaString": "31 MINS",
+          "lastMileTravel": 4.400000095367432,
+          "slugs": {
+            "restaurant": "healthy-diet-kakkanad-kakkanad",
+            "city": "kochi"
+          },
+          "cityState": "13",
+          "address": "HEALTHY DIET 11/2223 GROUND FLOOR CONFIDENT GEM RAJAGIRIVALLEY P.O KAKKANAD THRIKKAKARA CIRCLE,ERNAKULAM,KERALA - 682030",
+          "locality": "Padamughal",
+          "parentId": 94911,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3900,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3900,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3900",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "4.4 kms",
+          "hasSurge": false,
+          "aggregatedDiscountInfoV3": {
+            "header": "60% OFF",
+            "subHeader": "UPTO ₹100",
+            "discountTag": "",
+            "headerTypeV2": 0
+          },
+          "loyaltyDiscoverPresentationInfo": {
+            "logoCtx": {
+              "text": "BENEFITS",
+              "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+            },
+            "freedelMessage": "FREE DELIVERY",
+            "exclusiveOfferMessage": ""
+          },
+          "sla": {
+            "restaurantId": "394960",
+            "deliveryTime": 31,
+            "minDeliveryTime": 31,
+            "maxDeliveryTime": 31,
+            "lastMileTravel": 4.400000095367432,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.1",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      }
+    ],
+    "totalRestaurants": 99
+  }
+}

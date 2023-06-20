@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import Data from "./swiggy.json";
+
+console.log(Data.data.cards[0].data.name);
 //Header Component
 const Header = () => {
   return (
@@ -29,24 +32,48 @@ const styleCards = {
 };
 
 //RestaurantCard Component
-const RestaurantCard = () => {
+const RestaurantCard = (props) => {
+  const { resData } = props;
   return (
     <div className="resCards" style={styleCards}>
       <img
         alt="resLogo"
-        src="https://plus.unsplash.com/premium_photo-1673830185613-fba8baacca0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+        src={
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
+          resData.data.cards[0].data.cloudinaryImageId
+        }
       ></img>
-      <h3 className="resName">Garden Bistro</h3>
-      <p className="resDesc">
-        The Garden Bistro is a charming and elegant restaurant located in the
-        heart of a bustling city. Nestled amidst lush greenery, it offers a
-        tranquil escape from the urban environment. As you step inside, you are
-        greeted by a serene atmosphere and a warm, inviting ambiance.
-      </p>
+      <h3 className="resName">{resData.data.cards[0].data.name}</h3>
+      <h3>{resData.data.cards[0].data.avgRating} stars</h3>
+      <h4>{resData.data.cards[0].data.cuisines.join(", ")}</h4>
+      <h4>{resData.data.cards[0].data.costForTwo / 100}</h4>
+      <h5>{resData.data.cards[0].data.deliveryTime} Min</h5>
+      <p className="resDesc"></p>
     </div>
   );
 };
 
+//RestaurantCard Component
+const RestaurantCards = (props) => {
+  const { resData } = props;
+  return (
+    <div className="resCards">
+      <img
+        alt="resLogo"
+        src={
+          "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
+          resData.data.cards[0].data.cloudinaryImageId
+        }
+      ></img>
+      <h3 className="resName">{resData.data.cards[0].data.name}</h3>
+      <h3>{resData.data.cards[0].data.avgRating} stars</h3>
+      <h4>{resData.data.cards[0].data.cuisines.join(", ")}</h4>
+      <h4>{resData.data.cards[0].data.costForTwo / 100}</h4>
+      <h5>{resData.data.cards[0].data.deliveryTime} Min</h5>
+      <p className="resDesc"></p>
+    </div>
+  );
+};
 //Body Component
 const Body = () => {
   return (
@@ -58,16 +85,7 @@ const Body = () => {
         </button>
       </div>
       <div className="res-container">
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
+        <RestaurantCard resData={Data} />
       </div>
     </div>
   );
@@ -80,6 +98,7 @@ const AppLayout = () => {
       <Header />
       <hr></hr>
       <Body />
+      <hr></hr>
     </div>
   );
 };
