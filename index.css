@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-.body{
+
+.body {
     margin-top: 10px;
 }
 
@@ -144,6 +145,11 @@
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
+}
+
+.cardText {
+    /* background-color: #ccd1d1; */
+    border: 1px solid white;
 }
 
 .cardText h3 {
